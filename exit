@@ -1,0 +1,15 @@
+┌─────────┬─────────┬─────────────────┬───────────────────────────────────────────────────────────────────────────┬─────────────────┐
+│ [38;5;47;01mpost_id[39;00m │ [38;5;47;01muser_id[39;00m │ [38;5;47;01mpost_title[39;00m      │ [38;5;47;01mpost_message[39;00m                                                              │ [38;5;47;01mpost_location[39;00m   │
+├─────────┼─────────┼─────────────────┼───────────────────────────────────────────────────────────────────────────┼─────────────────┤
+│       1 │       1 │ Best hike ever! │ went on this strenous hike this weekend, but the view was worth it!       │ Shenandoah Park │
+│       2 │       2 │ Nails done      │ got a fresh set of nails done this past week!                             │ Charlottesville │
+│       3 │       3 │ My dog          │ look at tucker lol                                                        │ Richmond        │
+│       4 │       4 │ Toy             │ Saw this really cute dog toy the other day, couldnt afford it though :( ) │ Springfield     │
+│       5 │       5 │ Best game       │ whoever dislikes minecraft, come fight me                                 │ Richmond        │
+│       6 │       6 │ Plushie         │ this plushie is soooo cute, im so glad i got it                           │ Yorktown        │
+│       7 │       7 │ Practice        │ coach said im gonna be benched next game.                                 │ Blacksburg      │
+│       8 │       8 │ New Drink       │ Has anyone actually tried this new drink? Havent heard much about it tbh  │ Harrisonburg    │
+│       9 │       9 │ New book        │ Just got this new book from the local bookstore, cant wait to read it!    │ New York City   │
+│      10 │      10 │ Work            │ I hate my job, cant wait to put in my two weeks.                          │ Rockville       │
+└─────────┴─────────┴─────────────────┴───────────────────────────────────────────────────────────────────────────┴─────────────────┘
+

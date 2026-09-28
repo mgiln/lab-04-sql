@@ -1,0 +1,2 @@
+user_id	username	post_id	post_title	post_location	post_message
+4	doggylovr	4	Toy	Springfield	Saw this really cute dog toy the other day, couldnt afford it though :( )

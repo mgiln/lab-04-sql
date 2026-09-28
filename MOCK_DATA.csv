@@ -1,0 +1,201 @@
+id,group,Location,username,gender,job
+1,coke zero,Portugal,esherman0,Female,Marketing Assistant
+2,sparkling water,Russia,sgierke1,Male,Quality Control Specialist
+3,coke zero,Brazil,rflounders2,Male,Tax Accountant
+4,coke zero,Indonesia,jhathaway3,Female,Cost Accountant
+5,fanta,Honduras,,Male,Teacher
+6,sparkling water,Brazil,dlattimer5,Male,Geologist III
+7,coke zero,Poland,acaulier6,Male,Business Systems Development Analyst
+8,fanta,Papua New Guinea,bbroddle7,Female,Media Manager IV
+9,coke zero,China,gmcgreay8,Male,Recruiter
+10,fanta,Ukraine,mpashler9,Female,Senior Quality Engineer
+11,sprite,Chile,bgorgena,Male,Community Outreach Specialist
+12,coke zero,,cjaycocksb,Female,Nurse
+13,sprite,Pakistan,kseec,Female,Office Assistant IV
+14,ginger ale,China,ehartopd,Female,Safety Technician I
+15,coke zero,Indonesia,kcorainie,Female,VP Accounting
+16,sprite,Portugal,jbisetf,Female,Software Engineer I
+17,,Honduras,mdmychg,Male,Programmer III
+18,sprite,Philippines,vboath,Male,VP Sales
+19,fanta,Malaysia,beveritti,Female,Programmer II
+20,fanta,Indonesia,mbeynej,Male,Legal Assistant
+21,,Argentina,cplaitk,Male,Structural Engineer
+22,sprite,Brazil,grobinetl,Female,Recruiter
+23,coke zero,Russia,scovellem,Polygender,Structural Analysis Engineer
+24,sprite,Sweden,gshillann,Female,Director of Sales
+25,ginger ale,China,jproomo,Male,Engineer IV
+26,coke zero,,mmaricp,Female,VP Quality Control
+27,fanta,China,sramosq,Female,Research Associate
+28,sparkling water,France,lcutcheyr,Female,Associate Professor
+29,,Philippines,iragbornes,Female,Payment Adjustment Coordinator
+30,coke zero,Brazil,lgilbodyt,Bigender,Executive Secretary
+31,sparkling water,China,swallesu,Male,Editor
+32,fanta,,ndangelov,Male,Financial Analyst
+33,sprite,Canada,jdunseithw,Male,Analog Circuit Design manager
+34,sparkling water,China,,Female,Business Systems Development Analyst
+35,sprite,Portugal,scorstony,Male,Chief Design Engineer
+36,ginger ale,Indonesia,swintersonz,Female,General Manager
+37,sparkling water,Ghana,jcordelle10,Female,Project Manager
+38,sprite,China,glampitt11,Male,Internal Auditor
+39,,Japan,kboggers12,Female,Software Consultant
+40,ginger ale,Finland,gscuse13,Female,VP Marketing
+41,sprite,China,hshropsheir14,Female,Geologist II
+42,fanta,Russia,kcroucher15,Genderfluid,Administrative Assistant IV
+43,sprite,Malaysia,abiggin16,Male,Programmer III
+44,fanta,Indonesia,emarritt17,Female,Administrative Assistant III
+45,,Malaysia,ehandforth18,Female,VP Accounting
+46,ginger ale,Iran,ipomroy19,Male,Junior Executive
+47,ginger ale,Philippines,feames1a,Female,Sales Representative
+48,ginger ale,Croatia,,Female,Technical Writer
+49,ginger ale,China,rrugg1c,Female,Senior Quality Engineer
+50,fanta,France,wjanusik1d,Female,Marketing Manager
+51,coke zero,Philippines,fspelsbury1e,Male,Librarian
+52,sprite,Armenia,rthomazet1f,Male,Analog Circuit Design manager
+53,ginger ale,Thailand,mhalston1g,Male,Research Associate
+54,sparkling water,China,bstetson1h,Male,Structural Engineer
+55,ginger ale,France,gtolotti1i,Male,Food Chemist
+56,sprite,Venezuela,apreshaw1j,Female,Project Manager
+57,ginger ale,China,jassad1k,Female,Software Engineer III
+58,sparkling water,Macedonia,ofoulser1l,Male,Chief Design Engineer
+59,fanta,China,valbasini1m,Female,VP Marketing
+60,fanta,Botswana,ddelmonte1n,Male,VP Sales
+61,sprite,France,gkennford1o,Female,Research Assistant I
+62,sparkling water,China,gmcgarvey1p,Female,General Manager
+63,sprite,Philippines,dchelsom1q,Female,VP Product Management
+64,fanta,Portugal,mwickerson1r,Male,VP Marketing
+65,ginger ale,Chile,wdelos1s,Male,Staff Accountant II
+66,sprite,Azerbaijan,lgrover1t,Male,Environmental Specialist
+67,coke zero,China,mastman1u,Female,Actuary
+68,ginger ale,Sweden,tkeniwell1v,Male,Legal Assistant
+69,fanta,Japan,fastin1w,Female,Physical Therapy Assistant
+70,fanta,Moldova,rromagnosi1x,Male,VP Accounting
+71,ginger ale,Argentina,ltrytsman1y,Male,Food Chemist
+72,coke zero,China,lmurrill1z,Female,Financial Analyst
+73,coke zero,Indonesia,biseton20,Male,Marketing Manager
+74,fanta,Mauritius,roxbrough21,Male,Executive Secretary
+75,fanta,Zambia,mbelasco22,Female,Analog Circuit Design manager
+76,sparkling water,China,mtrevorrow23,Female,Mechanical Systems Engineer
+77,,France,jloker24,Male,Account Representative II
+78,fanta,Indonesia,mlatchmore25,Non-binary,Web Designer I
+79,coke zero,China,tgorusso26,Male,Quality Control Specialist
+80,sprite,Malaysia,spattrick27,Male,Information Systems Manager
+81,coke zero,Anguilla,cbertolin28,Female,Software Consultant
+82,sprite,China,hmcellen29,Female,Human Resources Manager
+83,fanta,Palestinian Territory,ncrick2a,Female,Engineer IV
+84,ginger ale,Russia,tmccormack2b,Bigender,Automation Specialist III
+85,ginger ale,Philippines,boty2c,Male,Biostatistician III
+86,sparkling water,Japan,mcloney2d,Female,Human Resources Assistant III
+87,ginger ale,China,ematuszewski2e,Female,Quality Control Specialist
+88,coke zero,Argentina,alawdham2f,Male,Internal Auditor
+89,sprite,Brazil,lbroadberry2g,Male,Desktop Support Technician
+90,coke zero,Czech Republic,,Bigender,Assistant Media Planner
+91,fanta,Poland,ajuschke2i,Male,Senior Quality Engineer
+92,ginger ale,Poland,amoden2j,Male,General Manager
+93,sparkling water,China,rmerrigans2k,Male,Community Outreach Specialist
+94,coke zero,Ukraine,kpickworth2l,Female,Senior Financial Analyst
+95,sparkling water,Japan,cspilsburie2m,Female,Office Assistant I
+96,coke zero,Burkina Faso,gfowlds2n,Female,Structural Analysis Engineer
+97,coke zero,Greece,astiell2o,Male,Tax Accountant
+98,fanta,Indonesia,adavison2p,Female,Teacher
+99,sprite,Indonesia,bwolton2q,Genderqueer,Nurse
+100,,,rwybron2r,Female,Social Worker
+101,fanta,Ukraine,mrikel2s,Female,Help Desk Operator
+102,sprite,Philippines,zmacbey2t,Female,Executive Secretary
+103,ginger ale,Philippines,,Male,Financial Analyst
+104,coke zero,Brazil,tconry2v,Male,Senior Financial Analyst
+105,ginger ale,Czech Republic,htorbett2w,Female,Nurse Practicioner
+106,coke zero,China,mfyfield2x,Female,Information Systems Manager
+107,ginger ale,China,mbalshen2y,Female,Professor
+108,sprite,Indonesia,fstearnes2z,Female,Registered Nurse
+109,ginger ale,Portugal,hellesmere30,Female,Developer II
+110,coke zero,Hungary,,Male,Sales Associate
+111,fanta,Cameroon,njeffreys32,Female,Staff Accountant I
+112,sparkling water,Kenya,rsclanders33,Male,Senior Editor
+113,sprite,New Zealand,tcracknall34,Female,Speech Pathologist
+114,coke zero,China,knewling35,Male,Payment Adjustment Coordinator
+115,fanta,Argentina,jdesforges36,Male,VP Accounting
+116,sparkling water,China,lrainforth37,Male,Speech Pathologist
+117,,Peru,cbootyman38,Female,Human Resources Manager
+118,ginger ale,Peru,otubby39,Male,Electrical Engineer
+119,sparkling water,China,wwent3a,Female,Quality Engineer
+120,coke zero,Russia,adowzell3b,Female,Cost Accountant
+121,sprite,Saudi Arabia,elevy3c,Male,Senior Quality Engineer
+122,sparkling water,China,cblade3d,Male,Software Test Engineer I
+123,coke zero,Indonesia,,Male,Geologist III
+124,coke zero,Bulgaria,tmckall3f,Female,Human Resources Assistant I
+125,coke zero,Niger,cthayre3g,Agender,Senior Sales Associate
+126,ginger ale,China,ptschirschky3h,Male,Recruiter
+127,sparkling water,Jamaica,ysedwick3i,Male,Media Manager IV
+128,ginger ale,Denmark,nmynard3j,Female,Automation Specialist IV
+129,sprite,Portugal,bvitall3k,Female,Director of Sales
+130,fanta,Russia,bbrunsden3l,Male,Assistant Manager
+131,sparkling water,Indonesia,bduncan3m,Male,Financial Analyst
+132,sparkling water,China,bmarcome3n,Agender,Operator
+133,sprite,Portugal,abirdwistle3o,Male,Recruiter
+134,coke zero,Indonesia,ceck3p,Male,Quality Control Specialist
+135,sparkling water,Brazil,srapson3q,Non-binary,Biostatistician III
+136,sparkling water,Paraguay,dspatig3r,Female,Speech Pathologist
+137,coke zero,Philippines,kkilfoyle3s,Female,Internal Auditor
+138,sprite,,kmactimpany3t,Male,VP Quality Control
+139,sprite,Kazakhstan,sbrashier3u,Male,Assistant Manager
+140,ginger ale,Afghanistan,drickeard3v,Female,Budget/Accounting Analyst III
+141,,Philippines,olicciardo3w,Polygender,VP Marketing
+142,sparkling water,China,lyanshin3x,Female,Teacher
+143,coke zero,Poland,ebickerton3y,Male,Geologist IV
+144,fanta,,lguppy3z,Male,Product Engineer
+145,coke zero,Poland,mfursland40,Female,Chief Design Engineer
+146,sparkling water,China,keccleshare41,Male,Legal Assistant
+147,sparkling water,Russia,gprout42,Female,Editor
+148,sparkling water,Japan,rbrockway43,Male,Research Nurse
+149,sparkling water,Canada,mbrewitt44,Female,Legal Assistant
+150,fanta,China,aadlem45,Female,Staff Accountant III
+151,ginger ale,Mauritius,cmcintosh46,Non-binary,Systems Administrator II
+152,ginger ale,China,meuplate47,Male,Design Engineer
+153,coke zero,Indonesia,cricards48,Female,Administrative Assistant III
+154,fanta,Mongolia,mwoliter49,Female,Analog Circuit Design manager
+155,coke zero,Costa Rica,kelner4a,Male,Staff Scientist
+156,ginger ale,Israel,gselbach4b,Female,Environmental Tech
+157,sparkling water,China,lhawkridge4c,Female,VP Quality Control
+158,ginger ale,China,croan4d,Female,Research Assistant III
+159,sparkling water,Libya,cjacobowits4e,Female,Pharmacist
+160,coke zero,Germany,blindsey4f,Female,Associate Professor
+161,fanta,Sweden,hruvel4g,Male,Systems Administrator II
+162,sparkling water,Norway,mdudmarsh4h,Genderqueer,GIS Technical Architect
+163,coke zero,Brazil,ssiveter4i,Male,Senior Developer
+164,fanta,Portugal,mberzins4j,Agender,Pharmacist
+165,coke zero,Brazil,speacocke4k,Genderqueer,Junior Executive
+166,sprite,China,wmerwood4l,Female,Budget/Accounting Analyst II
+167,ginger ale,China,toldis4m,Male,Assistant Professor
+168,sprite,China,mhoulton4n,Male,Media Manager IV
+169,ginger ale,Russia,dbernardy4o,Female,Design Engineer
+170,fanta,Portugal,ttalby4p,Male,Product Engineer
+171,ginger ale,Indonesia,pbootherstone4q,Male,Assistant Manager
+172,sprite,China,dguido4r,Female,Automation Specialist III
+173,,China,jbenedetti4s,Male,Account Executive
+174,,Norway,adodwell4t,Male,Business Systems Development Analyst
+175,ginger ale,Indonesia,amasedon4u,Male,Administrative Assistant I
+176,coke zero,France,aearngy4v,Male,Chemical Engineer
+177,fanta,Brazil,ttesdale4w,Female,Pharmacist
+178,fanta,Syria,twolverson4x,Male,Legal Assistant
+179,ginger ale,Brazil,nhulls4y,Female,Assistant Professor
+180,fanta,China,eserginson4z,Female,Compensation Analyst
+181,sparkling water,Chile,kwescott50,Female,Business Systems Development Analyst
+182,sparkling water,France,jcivitillo51,Polygender,Database Administrator IV
+183,fanta,Indonesia,hpoge52,Male,Staff Accountant III
+184,coke zero,Peru,,Male,Graphic Designer
+185,,Russia,bwanklin54,Female,Media Manager II
+186,sprite,Czech Republic,lwhatson55,Female,Chief Design Engineer
+187,sprite,China,gwabe56,Female,Project Manager
+188,fanta,China,llawrenson57,Female,Geological Engineer
+189,sprite,Philippines,mfancutt58,Female,Software Test Engineer II
+190,coke zero,Russia,cpurvis59,Male,VP Sales
+191,sprite,Germany,rcurness5a,Male,Civil Engineer
+192,coke zero,Russia,sfackney5b,Genderqueer,Recruiter
+193,sparkling water,Sri Lanka,blegrand5c,Female,Programmer Analyst IV
+194,fanta,China,nsegeswoeth5d,Male,Research Nurse
+195,coke zero,Portugal,lfeacham5e,Male,Research Associate
+196,sprite,Brazil,hsuller5f,Male,Software Engineer III
+197,sparkling water,China,llaurenson5g,Female,Human Resources Manager
+198,sprite,China,mkliemke5h,Male,Administrative Officer
+199,sprite,Poland,gbloxland5i,Female,Compensation Analyst
+200,ginger ale,Croatia,rlankester5j,Bigender,Teacher

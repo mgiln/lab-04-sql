@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import os
 import logging
 import mysql.connector
 
-# Read database settings from environment variables.
+#read database settings from environment variables.
 DBHOST = os.environ.get("DBHOST")
 DBUSER = os.environ.get("DBUSER")
 DBPASS = os.environ.get("DBPASS")
@@ -10,8 +12,8 @@ DBNAME = os.environ.get("DBNAME")
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-
 def get_data_by_group(value):
+    """Return all rows from mock where the group column matches the value"""
     query = "SELECT * FROM mock WHERE `group` = %s;"
 
     try:
@@ -19,10 +21,7 @@ def get_data_by_group(value):
         cur.execute(query, (value,))
         results = cur.fetchall()
 
-        output = []
-        for r in results:
-            output.append(r)
-        return output
+        return results
 
     except mysql.connector.Error as e:
         logging.error("MySQL Error: %s", e)
@@ -30,15 +29,15 @@ def get_data_by_group(value):
 
 
 def plot_counts(groupby):
-    """Return counts for each distinct value in the chosen column."""
-    # Validate column names because SQL placeholders only accept values.
+    """counts each unique value in the chosen column"""
     data_columns = ["id", "group", "Location", "username", "gender", "job"]
 
+    #if the filtered data is not in the columns, it outputs an error message, otherwise None
     if groupby not in data_columns:
-        logging.error("Invalid column name: %s", groupby)
+        logging.info("Invalid column name: %s", groupby)
         return None
 
-    # Only a validated column name is inserted into the query.
+    #only the specified column name can be inserted.
     query = f"""
         SELECT `{groupby}`, COUNT(*) AS row_count
         FROM mock
@@ -50,26 +49,24 @@ def plot_counts(groupby):
         cur.execute(query)
         results = cur.fetchall()
 
-        output = []
-        for r in results:
-            output.append(r)
-        return output
+        #creates an empty list then appends that list with the new information to output the newly created list
+        return results
 
+        #catches an error in stores it into e, returning the error message if True, otherwise None
     except mysql.connector.Error as e:
         logging.error("MySQL Error: %s", e)
         return None
 
 
 def main():
-    """Demonstrate filtering rows and counting values."""
+    """executes the filtering and counting values"""
     print(get_data_by_group("coke zero"))
     print(plot_counts("group"))
 
 
-# Run the demonstrations when this script is executed directly.
+#Runs the entire code and outputs an error if it fails
 if __name__ == "__main__":
     try:
-        # Open the connection and cursor used by both query functions.
         with mysql.connector.connect(
             host=DBHOST,
             database=DBNAME,
@@ -77,7 +74,7 @@ if __name__ == "__main__":
             password=DBPASS
         ) as connection:
             with connection.cursor() as cur:
-                logging.info("Connected to MySQL")
+                print("Connected to MySQL")
                 main()
 
     except mysql.connector.Error as e:

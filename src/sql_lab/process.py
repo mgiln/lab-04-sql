@@ -13,21 +13,21 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
 def read_data(filename):
-    #reading a csv file and returning a database
+    """reading a csv file and returning a database"""
     data = pd.read_csv(filename)
     logging.info("Read %s rows from %s", len(data), filename)
     return data
 
 
 def clean_data(data):
-    #removing rows with missing values and returning the cleaned dataframe
+    """removing rows with missing values and returning the cleaned dataframe"""
     cleaned_data = data.dropna()
     logging.info("Removed %s incomplete rows", len(data) - len(cleaned_data))
     return cleaned_data
 
 
 def load_data(data, table):
-    #creating a mock table if it doesnt exist and uploading the dataframe into it
+    """creating a mock table if it doesnt exist and uploading the dataframe into it"""
     table = "mock"
     connection = None
     cursor = None
@@ -40,7 +40,7 @@ def load_data(data, table):
             password=DBPASS
         )
         cursor = connection.cursor()
-        logging.info("Connected to MySQL")
+        print("Connected to MySQL")
 
         #table creation if mock doesnt already exist.
         cursor.execute("""
@@ -62,6 +62,7 @@ def load_data(data, table):
         """
 
         for _, row in data.iterrows():
+            # loops the values for each column
             values = (
                 int(row["id"]),
                 str(row["group"]),
@@ -72,12 +73,12 @@ def load_data(data, table):
             )
             cursor.execute(query, values)
 
-        # saves the values that were inserted
+        #saves the values that were inserted
         connection.commit()
-        logging.info("Uploaded %s rows to %s", len(data), table)
+        print("Uploaded %s rows to %s", len(data), table)
 
     except Exception:
-        logging.exception("Database upload failed")
+        print("Database upload failed")
         if connection is not None:
             connection.rollback()
         raise
@@ -93,12 +94,12 @@ def load_data(data, table):
 
 
 def main():
-    #read, clean and loading the data
-    logging.info("Processing")
+    """read, clean and loading the data whlie showing the process"""
+    print("Processing")
     data = read_data("MOCK_DATA.csv")
     cleaned_data = clean_data(data)
     load_data(cleaned_data, "mock")
-    logging.info("Process complete")
+    print("Process complete")
 
 
 if __name__ == "__main__":
